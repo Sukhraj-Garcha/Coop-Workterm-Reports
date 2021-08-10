@@ -1,0 +1,40 @@
+/* html {
+    width: 60%;
+    height: 100%;
+    min-height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;   
+}
+
+body {
+    color: green;
+    height: 100%;
+    min-height: 100%;
+    line-height: 1.75;
+    text-align: center;
+    align-items: center;
+}  */
+
+.nav-tabs .nav-link.active{ 
+    background-color: blue;
+    color: white;
+    border: 3px solid blue
+}   
+
+.nav-tabs .nav-link {
+    color: blue;
+    background-color: white;
+    border: 2px solid blue;
+    margin-right: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.nav-tabs .nav-link:hover {
+    border: 2px solid blue;
+}
+
+.tab-content {
+    border: 2px solid blue;
+}

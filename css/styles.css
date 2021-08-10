@@ -15,11 +15,8 @@ body {
     -o-background-size: cover;
     background-size: cover;
     color: crimson;
-    height: 100%;
-    min-height: 100%;
     line-height: 1.75;
-    text-align: center;
-    align-items: center;
+    
 }
 
 .landing-title {

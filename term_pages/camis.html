@@ -1,9 +1,9 @@
-!<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Camis</title>
+        <title>Work Term 1</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -12,40 +12,86 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  
         
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="../css/work_term_one.css"> 
     </head>
     <body>
+       
+      <!-- section tabs -->
+      <div class="container mt-2">
+
         <h1>CAMISSS</h1>
+        <p>Sample introduction sentence.....</p>
+
+        <ul class="nav nav-tabs"> <!--add 'justify-content-center' to ul class to center tabs-->
+          <li class="nav-items"><a class="nav-link active" data-bs-toggle="tab" href="#about"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-person" viewBox="0 0 16 16">
+            <path d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"/>
+            <path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+          </svg> About</a></li>
+
+          <li class="nav-items"><a class="nav-link" data-bs-toggle="tab" href="#job_desc"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-card-checklist" viewBox="0 0 16 16">
+            <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/>
+            <path d="M7 5.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0zM7 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0z"/>
+          </svg> Job Description</a></li>
+
+          <li class="nav-items"><a class="nav-link" data-bs-toggle="tab" href="#goals"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trophy" viewBox="0 0 16 16">
+           <path d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935zM3.504 1c.007.517.026 1.006.056 1.469.13 2.028.457 3.546.87 4.667C5.294 9.48 6.484 10 7 10a.5.5 0 0 1 .5.5v2.61a1 1 0 0 1-.757.97l-1.426.356a.5.5 0 0 0-.179.085L4.5 15h7l-.638-.479a.501.501 0 0 0-.18-.085l-1.425-.356a1 1 0 0 1-.757-.97V10.5A.5.5 0 0 1 9 10c.516 0 1.706-.52 2.57-2.864.413-1.12.74-2.64.87-4.667.03-.463.049-.952.056-1.469H3.504z"/>
+          </svg> Goals</a></li>
+        </ul>
         
-        <!-- section tabs -->
-        <div class="container">
+        <div class="tab-content">
           
-            <ul class="nav nav-tabs justify-content-center">
-              <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
-              <li><a data-toggle="tab" href="#menu1">Menu 1</a></li>
-              <li><a data-toggle="tab" href="#menu2">Menu 2</a></li>
-              <li><a data-toggle="tab" href="#menu3">Menu 3</a></li>
-            </ul>
-          
-            <div class="tab-content">
-              <div id="home" class="tab-pane fade in active">
-                <h3>HOME</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <!--about tab content-->
+          <div class="tab-pane active" id="about">
+            <div class="row border g-0 rounded shadow">
+              <div class="col p-4">
+                <h3>About</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis urna ligula, pretium et lorem non, rhoncus gravida quam. Quisque sit amet ornare metus. Nunc mattis nunc id enim scelerisque, ut semper sapien ultricies. Morbi pharetra lobortis neque at aliquet. Vestibulum eget velit felis. Aliquam gravida congue hendrerit. Nullam eleifend diam felis, sed placerat nunc ornare quis. Nunc posuere ante non urna fermentum accumsan. Phasellus sed dui euismod, semper diam vitae, volutpat massa. Nulla luctus eu magna at aliquet. Sed ornare, neque nec hendrerit lacinia, tellus neque ornare diam, at consequat arcu ligula sed nulla. Curabitur turpis urna, suscipit malesuada placerat quis, euismod eget metus.
+                </p>
               </div>
-              <div id="menu1" class="tab-pane fade">
-                <h3>Menu 1</h3>
-                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              </div>
-              <div id="menu2" class="tab-pane fade">
-                <h3>Menu 2</h3>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-              </div>
-              <div id="menu3" class="tab-pane fade">
-                <h3>Menu 3</h3>
-                <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+               <!--image (right side)-->
+              <div class="col-auto"> 
+                  <img src="../images/camis_logo.png" class="img-fluid">
               </div>
             </div>
+            </div>
+
+            <!--job description tab content-->
+          <div class="tab-pane" id="job_desc">
+            <div class="row border g-0 rounded shadow">
+              <div class="col p-4">
+                <h3>Job Description</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis urna ligula, pretium et lorem non, rhoncus gravida quam. Quisque sit amet ornare metus. Nunc mattis nunc id enim scelerisque, ut semper sapien ultricies. Morbi pharetra lobortis neque at aliquet. Vestibulum eget velit felis. Aliquam gravida congue hendrerit. Nullam eleifend diam felis, sed placerat nunc ornare quis. Nunc posuere ante non urna fermentum accumsan. Phasellus sed dui euismod, semper diam vitae, volutpat massa. Nulla luctus eu magna at aliquet. Sed ornare, neque nec hendrerit lacinia, tellus neque ornare diam, at consequat arcu ligula sed nulla. Curabitur turpis urna, suscipit malesuada placerat quis, euismod eget metus.
+                </p>
+              </div>
+               <!--image (right side)-->
+              <div class="col-auto"> 
+                  <img src="../images/camis_logo.png" class="img-fluid">
+              </div>
+            </div>
+            </div>
+            <!--goals tab content-->
+            <div class="tab-pane" id="goals">
+              <div class="row border g-0 rounded shadow">
+                <div class="col p-4">
+                  <h3>Goals</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis urna ligula, pretium et lorem non, rhoncus gravida quam. Quisque sit amet ornare metus. Nunc mattis nunc id enim scelerisque, ut semper sapien ultricies. Morbi pharetra lobortis neque at aliquet. Vestibulum eget velit felis. Aliquam gravida congue hendrerit. Nullam eleifend diam felis, sed placerat nunc ornare quis. Nunc posuere ante non urna fermentum accumsan. Phasellus sed dui euismod, semper diam vitae, volutpat massa. Nulla luctus eu magna at aliquet. Sed ornare, neque nec hendrerit lacinia, tellus neque ornare diam, at consequat arcu ligula sed nulla. Curabitur turpis urna, suscipit malesuada placerat quis, euismod eget metus.
+                  </p>
+                </div>
+                <!--image (right side)-->
+                <div class="col-auto"> 
+                    <img src="../images/camis_logo.png" class="img-fluid">
+                </div>
+              </div>
+              </div>
           </div>
 
+          </div>
+
+      </div>
+
+        
     </body>
 </html>
