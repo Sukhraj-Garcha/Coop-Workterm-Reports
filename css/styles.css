@@ -14,13 +14,14 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    color: crimson;
+    color: white;
     line-height: 1.75;
     
 }
 
-.landing-title {
+.landing_title {
     margin-top: 1rem;
+    opacity: 85%;
 }
 
 .flexGrid {
