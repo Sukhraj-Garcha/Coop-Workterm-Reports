@@ -16,6 +16,10 @@ body {
     align-items: center;
 }  */
 
+.content-text {
+    text-align: justify;
+}
+
 .tab-content {
     border: 1px solid blue;
 }
