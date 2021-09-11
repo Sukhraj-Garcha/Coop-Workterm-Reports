@@ -19,10 +19,21 @@ body {
     
 }
 
+header {
+	padding: 5%;
+	text-align: center;
+ }
+
+
 .landing_title {
     margin-top: 1rem;
     opacity: 85%;
     width: 100%;
+}
+
+.intro-main {
+    margin-top: 2rem;
+    font-size: large;
 }
 
 .flexGrid {

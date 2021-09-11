@@ -16,6 +16,17 @@ body {
     align-items: center;
 }  */
 
+.goals {
+    list-style: decimal;
+}
+
+.goals > li {
+    margin-top: 1.5rem;
+    text-align: justify;
+}
+
+
+
 .content-text {
     text-align: justify;
 }
