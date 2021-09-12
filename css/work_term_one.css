@@ -5,16 +5,17 @@
     margin: 0 auto;
     text-align: center;
     align-items: center;   
-}
+} */
 
 body {
-    color: green;
-    height: 100%;
-    min-height: 100%;
+    background: url(../images/term_bg.jfif) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     line-height: 1.75;
-    text-align: center;
-    align-items: center;
-}  */
+    color: white;
+}  
 
 .goals {
     list-style: decimal;
@@ -25,7 +26,9 @@ body {
     text-align: justify;
 }
 
-
+.btn_home {
+    margin-top: 5rem;
+}
 
 .content-text {
     text-align: justify;
