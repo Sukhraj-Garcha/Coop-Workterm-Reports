@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Work Term 1</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--jQuery and Bootstrap-->
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  
+        
+        <link rel="stylesheet" href="../css/work_term_two.css"> 
+        <!-- include scripts -->
+        <script src="../js/main.js"></script>
+
+    </head>
+    <body>
+       
+      <!-- section tabs -->
+      <div class="container mt-2">
+
+        <h1>BASTIAN SOLUTIONS</h1>
+        <p>Software Developer (Sep 2021 - Dec 2021)</p>
+
+        <ul class="nav nav-tabs"> <!--add 'justify-content-center' to ul class to center tabs-->
+          <li class="nav-items"><a class="nav-link active" data-bs-toggle="tab" href="#about"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-person" viewBox="0 0 16 16">
+            <path d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"/>
+            <path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+          </svg> About</a></li>
+
+          <li class="nav-items"><a class="nav-link" data-bs-toggle="tab" href="#job_desc"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-card-checklist" viewBox="0 0 16 16">
+            <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/>
+            <path d="M7 5.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0zM7 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0z"/>
+          </svg> Job Description</a></li>
+
+          <li class="nav-items"><a class="nav-link" data-bs-toggle="tab" href="#goals"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trophy" viewBox="0 0 16 16">
+           <path d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935zM3.504 1c.007.517.026 1.006.056 1.469.13 2.028.457 3.546.87 4.667C5.294 9.48 6.484 10 7 10a.5.5 0 0 1 .5.5v2.61a1 1 0 0 1-.757.97l-1.426.356a.5.5 0 0 0-.179.085L4.5 15h7l-.638-.479a.501.501 0 0 0-.18-.085l-1.425-.356a1 1 0 0 1-.757-.97V10.5A.5.5 0 0 1 9 10c.516 0 1.706-.52 2.57-2.864.413-1.12.74-2.64.87-4.667.03-.463.049-.952.056-1.469H3.504z"/>
+          </svg> Goals</a></li>
+
+          <li class="nav-items"><a class="nav-link" data-bs-toggle="tab" href="#conclusion"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+          </svg> Conclusion</a></li>
+
+          <li class="nav-items"><a class="nav-link" data-bs-toggle="tab" href="#acknowledgements"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hand-thumbs-up" viewBox="0 0 16 16">
+            <path d="M8.864.046C7.908-.193 7.02.53 6.956 1.466c-.072 1.051-.23 2.016-.428 2.59-.125.36-.479 1.013-1.04 1.639-.557.623-1.282 1.178-2.131 1.41C2.685 7.288 2 7.87 2 8.72v4.001c0 .845.682 1.464 1.448 1.545 1.07.114 1.564.415 2.068.723l.048.03c.272.165.578.348.97.484.397.136.861.217 1.466.217h3.5c.937 0 1.599-.477 1.934-1.064a1.86 1.86 0 0 0 .254-.912c0-.152-.023-.312-.077-.464.201-.263.38-.578.488-.901.11-.33.172-.762.004-1.149.069-.13.12-.269.159-.403.077-.27.113-.568.113-.857 0-.288-.036-.585-.113-.856a2.144 2.144 0 0 0-.138-.362 1.9 1.9 0 0 0 .234-1.734c-.206-.592-.682-1.1-1.2-1.272-.847-.282-1.803-.276-2.516-.211a9.84 9.84 0 0 0-.443.05 9.365 9.365 0 0 0-.062-4.509A1.38 1.38 0 0 0 9.125.111L8.864.046zM11.5 14.721H8c-.51 0-.863-.069-1.14-.164-.281-.097-.506-.228-.776-.393l-.04-.024c-.555-.339-1.198-.731-2.49-.868-.333-.036-.554-.29-.554-.55V8.72c0-.254.226-.543.62-.65 1.095-.3 1.977-.996 2.614-1.708.635-.71 1.064-1.475 1.238-1.978.243-.7.407-1.768.482-2.85.025-.362.36-.594.667-.518l.262.066c.16.04.258.143.288.255a8.34 8.34 0 0 1-.145 4.725.5.5 0 0 0 .595.644l.003-.001.014-.003.058-.014a8.908 8.908 0 0 1 1.036-.157c.663-.06 1.457-.054 2.11.164.175.058.45.3.57.65.107.308.087.67-.266 1.022l-.353.353.353.354c.043.043.105.141.154.315.048.167.075.37.075.581 0 .212-.027.414-.075.582-.05.174-.111.272-.154.315l-.353.353.353.354c.047.047.109.177.005.488a2.224 2.224 0 0 1-.505.805l-.353.353.353.354c.006.005.041.05.041.17a.866.866 0 0 1-.121.416c-.165.288-.503.56-1.066.56z"/>
+          </svg> Acknowledgements</a></li>
+
+        </ul>
+        
+        <div class="tab-content">
+          
+          <!--about tab content-->
+          <div class="tab-pane active" id="about">
+            <div class="row border g-0 rounded shadow">
+              <div class="col p-4">
+                <h3>About</h3>
+                <p class="content-text">
+                  Bastian Solutions is a Toyota Advanced Logistics company that specializes in material handling, robotics integration, and 
+                  providing automated solutions for distribution, manufacturing, and order fulfillment centers around the world. Bastian 
+                  provides automation solutions in the following areas: conveyor/sortation, goods to person, automated storage and retrieval 
+                  systems (ASRS), picking, and automated guided vehicles (AGVs). The company has too many automated solutions to go into detail 
+                  about each item here, but you can explore all of their projects <a href="https://www.bastiansolutions.com/" target="blank">here</a>. The bread and 
+                  butter of Bastian’s automated solutions is their software known as Exacta. Exacta is broken into three main components: ExactaWCS, ExactaWMS, ExactaWES. 
+                  ExactaWCS is the warehouse control system that facilitates material and information flow to order fulfillment technology and material handling 
+                  equipment. ExactaWMS is a warehouse management system that tracks inventory, inbound and outbound traffic, and allows customers to customize 
+                  and view their warehouse in ways that best benefit their requirements. ExactaWES is the warehouse execution system, which is a combination 
+                  of WCS and MCS. In 1952, Elgan Stark founded the company that would eventually become Bastian Solutions (then known as E.C Stark Co. Inc. 
+                  At this point, the company supplied conventional material handling products. In 1971, the company was renamed to Bastian Handling Corporation. 
+                  In 1980, the company shifted their focus to become more involved with automated solutions and information systems that control the flow of 
+                  products in warehouses and manufacturing facilities. Between the years of 2005 and 2012, four major changes occurred: Bastian created its 
+                  first robotics division, the company started manufacturing its own line of conveyor, more offices opened up around the world 
+                  (Toronto, Montreal, Atlanta, etc.), and began operation under the new name Bastian Solutions. The final major change to the company occurred 
+                  in 2017 when Bastian Solutions was acquired by Toyota Advanced Logistics. Currently, Bastian Solutions has offices spread throughout Canada, 
+                  the United States, and Mexico and operates with the main goal of providing clients a competitive advantage by designing and delivering world-
+                  class distribution and production solutions.
+                </p>
+              </div>
+               <!--image (right side)-->
+              <div class="col-auto"> 
+                  <img src="../images/bastian_logo.gif" class="img-fluid">
+              </div>
+            </div>
+          </div>
+
+          <!--job description tab content-->
+          <div class="tab-pane" id="job_desc">
+            <div class="row border g-0 rounded shadow">
+              <div class="col p-4">
+                <h3>Job Description</h3>
+                <p class="content-text">
+                    At Bastian Solutions, I was a member of Team Bluejay, a fully remote team working on a project titled “Project Sapphire.” 
+                    Bluejay was a very small team (only 5 other members, bringing the total to 6 including me) which ended up working in my favour 
+                    because it meant that I was given important tasks that directly benefited the project. I joined the team at a very early stage in 
+                    the project life cycle. When I first started working at Bastian in September, the team was in the process of getting a minimum 
+                    viable product (MVP) together to prove that the product would be useful for Bastian. I believe that I am not allowed to go into too 
+                    much detail about the project for confidentiality reasons, but essentially, Project Sapphire is an emulation engine that models the 
+                    flow of materials through warehouses. 
+                </p>
+                <p class="content-text">
+                    As a software engineer for Team Bluejay, I was given the opportunity to work on multiple different aspects of software 
+                    development. This included testing, backend, frontend, design, and code reviews. I was also introduced to many new tools and 
+                    technologies that I was able to get comfortable with using over the last four months. The majority of my work was done in C# 
+                    using the .Net framework and Visual Studio as my primary code editor. 
+                </p>
+                <p class="content-text">
+                    Like I said before, I worked on many different tasks throughout the term. During the MVP stage of the project, I spent some 
+                    time building out unit tests for the project code through XUnit. This allowed me to become more familiar with the code and 
+                    really helped my understanding of the code base. I also did some work on the front-end web app GUI. This was done through 
+                    Blazor and C#. I had never heard of Blazor before this term, but after getting the chance to use it, I can definitely see its 
+                    value.
+                </p>
+                <p class="content-text">
+                    Once the MVP was complete, the team shifted to a complete rebuild and redesign of the discrete emulation engine (DES). At this 
+                    point, I was tasked with designing and building out a class hierarchy that allowed us to model the loads that would be moving 
+                    through the warehouses. This was a task that would be a part of the foundation of the entire system, so I was very thankful to 
+                    be trusted with it. There are a lot of different parts that makeup this “load” object, so a lot of thought had to be put into 
+                    the design. After the design was complete and approved, I implemented the class hierarchy in C# and implemented more unit tests 
+                    using XUnit. This task gave me direct exposure to the entire implementation process of a new feature and gave me experience with 
+                    designing code in such a way that it fits into an already existing system.
+                </p>
+                <p class="content-text">
+                    Near the end of the term, I shifted my focus to three main tasks: implementing a metrics gathering system, laying out the 
+                    facilities that we were modeling in YAML configuration files, and implementing the PLC logic for the different parts of the 
+                    facility. In terms of the metrics, I was responsible for designing a system that allowed us to track different statistics 
+                    about loads as they move through the warehouse. This task allowed me to learn many new concepts as well as improve my existing 
+                    skills. Specifically, I was able to get an understanding of how events work in C#, and how to trigger certain stuff to happen 
+                    based off of when other events occur. Additionally, I gained experience with using local databases because I had to utilize 
+                    LiteDB in order to store the metrics information that was gathered locally. Also, implementing the metrics system allowed me to 
+                    get a better understanding of asynchronous programming since the handling of the metrics had to be completely asynchronous so 
+                    that it didn’t affect the performance of the actual emulation. In terms of the YAML configuration files, they turned out to be 
+                    a much greater challenge than I had expected. At first, one would think that this is a fairly easy task, however, as the pieces 
+                    that we were trying to build got more complex, I (along with my team members) had to get more creative with our design in order 
+                    to layout the facility in a way that models the real life version accurately. This task definitely improved my creative thinking 
+                    and designing ability because I had to spend time discussing and thinking about how we would lay out more complex parts of a 
+                    facility (like AGVs and ASRS for example). My third main focus, implementing PLC logic, was the most challenging task, but I found 
+                    it a very cool and interesting one nonetheless. I was responsible for implementing the logic in the PLCs that reflect how they work
+                    in the real facility. This meant making sure that loads were correctly scanned at the different scanners, ensuring that pieces of 
+                    conveyor correctly stopped/started when they needed to, and controlling where the load went to next (since in a lot of cases, 
+                    there were multiple places where a load could end up). Having the opportunity to work on this side of the project really helped in 
+                    my understanding of how our DES engine actually works and how PLCs function in the real world.
+                </p>
+                <p class="content-text">
+                    Overall, my four month term here allowed me to complete a variety of different tasks. Some of these allowed me directly 
+                    leverage the skills that I learned in class (general coding habits, polymorphism, inheritance, and unit testing to name a few), 
+                    while other tasks forced me to do some research online and develop new skills since they were not touched on classes 
+                    (YAML configuration files and Blazor front end work for example).
+                </p>
+                
+              </div>
+              
+            </div>
+            </div>
+
+            <!--goals tab content-->
+            <div class="tab-pane" id="goals">
+              <div class="row border g-0 rounded shadow">
+                <div class="col p-4">
+                  <h3>Goals</h3>
+                 <ul class="goals">
+                   <li>
+                      <h5>CRITICAL AND CREATIVE THINKING - Inquiry and Analysis</h5>
+                      My first goal for this work term was to spend no more than 4-5 weeks to understand the code base of the project. 
+                      Being able to read and understand code written by other people is a very important skill for a software developer to have, 
+                      so I knew that being able to effectively do so will improve my employability for future opportunities. This particular 
+                      goal ended up being more difficult than I first anticipated. First of all, this was my first time coming into a project 
+                      that had lots of code that had already been written by other people. Of course, it is much more difficult to understand 
+                      other peoples' code than your own, so I actually found this fairly difficult at the start to accomplish. Additionally, I 
+                      joined the team at a very interesting time. During the first month of my term, the team was in the process of creating a 
+                      minimal viable product (MVP), and this is the code that I was trying to understand, which I think I was successful 
+                      in doing after about a month. However, after the MVP was presented and approved, the team shifted to a completely new 
+                      engine, and much of the code that I had begun to understand changed completely. Thus, I had to start the learning process 
+                      all over again. By the end, I was able to understand a majority of the code base, so in that respect, I believe that I 
+                      accomplished my goal. However, the code was constantly changing (seemingly every single day) so I had to constantly adjust 
+                      and spend time re-learning the source code.
+                   </li>
+                   <li>
+                    <h5>LITERACY - Technological Literacy </h5>
+                    My second goal for the work term was to become comfortable with writing in C#. C# is a popular language, so I knew that 
+                    becoming proficient in it would enlarge the pool of jobs that I am a good candidate for. Also, it doesn’t hurt to add another 
+                    language to the set of languages that I already know. At this point (at the end of my work term), I can say with confidence 
+                    that I have accomplished this goal. During the first few weeks of the term, I had to constantly bring up C# documentation so 
+                    that I could look at syntax/usage of very simple things (as expected). However, after working in C# for about 4 months, I no 
+                    longer need to constantly rely on documentation and online resources, but instead am able to code with confidence.
+                 </li>
+                 <li>
+                    <h5>PROFESSIONAL & ETHICAL BEHAVIOUR - Personal Organization/Time Management </h5>
+                    Another one of my goals for the work term was to successfully manage my time in order to complete all of my required work 
+                    within the sprint deadline. My team at Bastian worked in 1-2 week sprints. I recognized that successfully being able to 
+                    complete my work in such a fast-paced environment would improve my ability to get work done under pressure and would directly 
+                    prepare me to deal with both school and work related deadlines. This goal proved to be a very challenging one. At the start of 
+                    the work term, while I was in the process of easing into my work, it was not very hard because the amount of work I was given 
+                    was not too heavy and was easily manageable in the sprint period. However, as I got more involved in the project, my workload 
+                    increased and deadlines became tighter. The team needed to complete work at an intense pace, so I had to work very hard in 
+                    order to prioritize my tasks and finish them in the given amount of time. Although it was difficult, I can say with certainty 
+                    that I was successful because I never needed to ask for more time to complete tasks that were assigned to me. Overall, my time 
+                    management skills and ability to work under pressure have improved drastically. 
+                 </li>
+                 <li>
+                  <h5>CRITICAL AND CREATIVE THINKING - Problem Solving</h5>
+                    My last goal for this work term was to improve my problem solving skills in terms of programming to the point where I am 
+                    able to resolve at least 80-85% of my issues on my own. Running into errors with code is something that is always going to 
+                    happen. The ability to debug the code and fix those errors is a crucial skill for a developer to have and is something that 
+                    can be constantly improved. I determined that improving this aspect of my development would allow me to finish my assigned 
+                    tasks much faster (since I would be spending less time debugging) and will also make me a better developer for future work 
+                    opportunities. This particular goal was also a very interesting one. Due to the fact that the majority of the work I was 
+                    doing was on topics that were fairly foreign to me, I needed to ask my teammates a fair amount. I don't think I was successful 
+                    in completing my original goal of solving 85% of my issues on my own. However I would estimate that around 70-75% of issues 
+                    I was able to solve by myself. This term really emphasized the importance of reaching out for help when you need it. 
+                    While it is good to be able to solve problems on your own, I think that it is also important to find the right balance 
+                    between asking for help and relying on yourself. There is no point in spending hours trying to solve a problem by yourself 
+                    when you know that a team member can help you resolve it in a few minutes. Overall, working towards this goal throughout the 
+                    term has improved both my ability to solve problems on my own, but also my ability to understand when I should reach out for
+                    help.
+                 </li>
+                 </ul>
+                </div>
+              </div>
+            </div>
+
+            <!--conclusion tab content-->
+            <div class="tab-pane" id="conclusion">
+              <div class="row border g-0 rounded shadow">
+                <div class="col p-4">
+                  <h3>Conclusion</h3>
+                  <p class="content-text">
+                    I could not have asked for a better second work-term experience, Bastian gave me the chance to improve my development skills, 
+                    while allowing me to work alongside some amazing people! One interesting aspect of the term that I think is sort of rare to 
+                    experience as a co-op student was the fact that I got to ride the wave with the team and see our DES engine come together with 
+                    my own eyes. Like I said, when I first joined, the team was in an MVP stage where we had a working engine, but it was very 
+                    bare-bones. Then we shifted to a completely new system, and I saw the engine improve drastically. Finally, in my last month, 
+                    the team was given their first project to emulate a facility for another company in order to help them visualize what is going wrong 
+                    in their facility. Thus, it was very cool to see the project go from something very basic to a proper and useful emulation 
+                    tool. To say I learned a lot at Bastian Solutions would be a huge understatement. Although this term was only for four months, 
+                    the knowledge and skills that I have gained reflect that of an eight month term and I am very grateful to have had the chance 
+                    to work at such an amazing company.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+           <!--acknowledgements tab content-->
+           <div class="tab-pane" id="acknowledgements">
+            <div class="row border g-0 rounded shadow">
+              <div class="col p-4">
+                <h3>Acknowledgements</h3>
+                <p class="content-text">
+                  Special thanks to the entire QA team for making me feel welcome right from the first day, 
+                  not hesitating to help me out, and making my first co-op such a memorable experience! 
+                </p>
+                <ul class="shoutouts">
+                  <li>Josh Nasso</li>
+                  <li>Amrit Singh</li>
+                  <li>Samarth Patel</li>
+                  <li>Keith Codner</li>
+                  <li>Ali Stoneham</li>
+                  <li>Jess Frichitthavong</li>
+                </ul>
+                <p>
+                  Finally, a huge thank you to my supervisor, Derek White for making my integration with the QA team as seamless as possible and trusting
+                  me to complete important tasks!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center">
+          <button class="btn btn-danger btn_home" id="home">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+              <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+            </svg>
+          </button>
+        </div>      
+      </div>
+        
+    </body>
+
+</html>

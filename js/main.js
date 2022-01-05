@@ -6,7 +6,7 @@ $(document).ready(function() {
     })
 
     $(".wt2").click(function() {
-        alert("Coming Soon");
+        document.location.href = "./term_pages/bastian1.html";
     })
 
     //take user back to home page
