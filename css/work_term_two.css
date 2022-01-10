@@ -61,3 +61,14 @@ body {
 .nav-tabs .nav-link:hover {
     border: 2px solid blue;
 }
+
+.img_header {
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.warhouse_image {
+    margin-left: 1.5rem;
+    margin-bottom: 2rem;
+}
