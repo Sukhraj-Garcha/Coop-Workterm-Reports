@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Work Term 1</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--jQuery and Bootstrap-->
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  
+        
+        <link rel="stylesheet" href="../css/work_term_three.css"> 
+        <!-- include scripts -->
+        <script src="../js/main.js"></script>
+
+    </head>
+    <body>
+       
+      <!-- section tabs -->
+      <div class="container mt-2">
+
+        <h1>BASTIAN SOLUTIONS</h1>
+        <p>Software Developer (Sep 2021 - Dec 2021)</p>
+
+        <ul class="nav nav-tabs"> <!--add 'justify-content-center' to ul class to center tabs-->
+          <li class="nav-items"><a class="nav-link active" data-bs-toggle="tab" href="#about"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-person" viewBox="0 0 16 16">
+            <path d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"/>
+            <path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+          </svg> About</a></li>
+
+          <li class="nav-items"><a class="nav-link" data-bs-toggle="tab" href="#job_desc"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-card-checklist" viewBox="0 0 16 16">
+            <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/>
+            <path d="M7 5.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0zM7 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0z"/>
+          </svg> Job Description</a></li>
+
+          <li class="nav-items"><a class="nav-link" data-bs-toggle="tab" href="#goals"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trophy" viewBox="0 0 16 16">
+           <path d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935zM3.504 1c.007.517.026 1.006.056 1.469.13 2.028.457 3.546.87 4.667C5.294 9.48 6.484 10 7 10a.5.5 0 0 1 .5.5v2.61a1 1 0 0 1-.757.97l-1.426.356a.5.5 0 0 0-.179.085L4.5 15h7l-.638-.479a.501.501 0 0 0-.18-.085l-1.425-.356a1 1 0 0 1-.757-.97V10.5A.5.5 0 0 1 9 10c.516 0 1.706-.52 2.57-2.864.413-1.12.74-2.64.87-4.667.03-.463.049-.952.056-1.469H3.504z"/>
+          </svg> Goals</a></li>
+
+          <li class="nav-items"><a class="nav-link" data-bs-toggle="tab" href="#conclusion"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+          </svg> Conclusion</a></li>
+
+          <li class="nav-items"><a class="nav-link" data-bs-toggle="tab" href="#acknowledgements"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hand-thumbs-up" viewBox="0 0 16 16">
+            <path d="M8.864.046C7.908-.193 7.02.53 6.956 1.466c-.072 1.051-.23 2.016-.428 2.59-.125.36-.479 1.013-1.04 1.639-.557.623-1.282 1.178-2.131 1.41C2.685 7.288 2 7.87 2 8.72v4.001c0 .845.682 1.464 1.448 1.545 1.07.114 1.564.415 2.068.723l.048.03c.272.165.578.348.97.484.397.136.861.217 1.466.217h3.5c.937 0 1.599-.477 1.934-1.064a1.86 1.86 0 0 0 .254-.912c0-.152-.023-.312-.077-.464.201-.263.38-.578.488-.901.11-.33.172-.762.004-1.149.069-.13.12-.269.159-.403.077-.27.113-.568.113-.857 0-.288-.036-.585-.113-.856a2.144 2.144 0 0 0-.138-.362 1.9 1.9 0 0 0 .234-1.734c-.206-.592-.682-1.1-1.2-1.272-.847-.282-1.803-.276-2.516-.211a9.84 9.84 0 0 0-.443.05 9.365 9.365 0 0 0-.062-4.509A1.38 1.38 0 0 0 9.125.111L8.864.046zM11.5 14.721H8c-.51 0-.863-.069-1.14-.164-.281-.097-.506-.228-.776-.393l-.04-.024c-.555-.339-1.198-.731-2.49-.868-.333-.036-.554-.29-.554-.55V8.72c0-.254.226-.543.62-.65 1.095-.3 1.977-.996 2.614-1.708.635-.71 1.064-1.475 1.238-1.978.243-.7.407-1.768.482-2.85.025-.362.36-.594.667-.518l.262.066c.16.04.258.143.288.255a8.34 8.34 0 0 1-.145 4.725.5.5 0 0 0 .595.644l.003-.001.014-.003.058-.014a8.908 8.908 0 0 1 1.036-.157c.663-.06 1.457-.054 2.11.164.175.058.45.3.57.65.107.308.087.67-.266 1.022l-.353.353.353.354c.043.043.105.141.154.315.048.167.075.37.075.581 0 .212-.027.414-.075.582-.05.174-.111.272-.154.315l-.353.353.353.354c.047.047.109.177.005.488a2.224 2.224 0 0 1-.505.805l-.353.353.353.354c.006.005.041.05.041.17a.866.866 0 0 1-.121.416c-.165.288-.503.56-1.066.56z"/>
+          </svg> Acknowledgements</a></li>
+
+        </ul>
+        
+        <div class="tab-content">
+          
+          <!--about tab content-->
+          <div class="tab-pane active" id="about">
+            <div class="row border g-0 rounded shadow">
+              <div class="col p-4">
+                <h3>About</h3> <br>
+                <h6>NOTE: This section has the same content as last term</h6> <br>
+                <p class="content-text">
+                  Bastian Solutions is a Toyota Advanced Logistics company that specializes in material handling, robotics integration, and 
+                  providing automated solutions for distribution, manufacturing, and order fulfillment centers around the world. Bastian 
+                  provides automation solutions in the following areas: conveyor/sortation, goods to person, automated storage and retrieval 
+                  systems (ASRS), picking, and automated guided vehicles (AGVs). The company has too many automated solutions to go into detail 
+                  about each item here, but you can explore all of their projects <a href="https://www.bastiansolutions.com/" target="blank">here</a>. The bread and 
+                  butter of Bastian’s automated solutions is their software known as Exacta. Exacta is broken into three main components: ExactaWCS, ExactaWMS, ExactaWES. 
+                  ExactaWCS is the warehouse control system that facilitates material and information flow to order fulfillment technology and material handling 
+                  equipment. ExactaWMS is a warehouse management system that tracks inventory, inbound and outbound traffic, and allows customers to customize 
+                  and view their warehouse in ways that best benefit their requirements. ExactaWES is the warehouse execution system, which is a combination 
+                  of WCS and MCS. In 1952, Elgan Stark founded the company that would eventually become Bastian Solutions (then known as E.C Stark Co. Inc. 
+                  At this point, the company supplied conventional material handling products. In 1971, the company was renamed to Bastian Handling Corporation. 
+                  In 1980, the company shifted their focus to become more involved with automated solutions and information systems that control the flow of 
+                  products in warehouses and manufacturing facilities. Between the years of 2005 and 2012, four major changes occurred: Bastian created its 
+                  first robotics division, the company started manufacturing its own line of conveyor, more offices opened up around the world 
+                  (Toronto, Montreal, Atlanta, etc.), and began operation under the new name Bastian Solutions. The final major change to the company occurred 
+                  in 2017 when Bastian Solutions was acquired by Toyota Advanced Logistics. Currently, Bastian Solutions has offices spread throughout Canada, 
+                  the United States, and Mexico and operates with the main goal of providing clients a competitive advantage by designing and delivering world-
+                  class distribution and production solutions.
+                </p>
+              </div>
+               <!--image (right side)-->
+              <div class="col-auto"> 
+                  <img src="../images/bastian_logo.gif" class="img-fluid">
+              </div>
+            </div>
+          </div>
+
+          <!--job description tab content-->
+          <div class="tab-pane" id="job_desc">
+            <div class="row border g-0 rounded shadow">
+              <div class="col p-4">
+                <h3>Job Description</h3>
+                <p class="content-text">
+                    This was my second co-op term working at Bastian Solutions. Upon my return, I was able to jump right back in from where I left off on my 
+                    previous term and continue working on Project Sapphire with the same core team, Team Bluejay. Unfortunately, I am not allowed to go into 
+                    too much detail about the specifics of Project Sapphire beyond what its core purpose is. Fundamentally, the project is an emulation engine 
+                    that models the flow of materials through warehouses. 
+                </p>
+                <p class="content-text">
+                    Compared to my last term, my role as a software developer for Team Bluejay this time around was simultaneously fairly similar, but also different. 
+                    The majority of my work was still done using C# and the .Net framework, with Visual Studio as my primary code editor. This term was similar to my 
+                    last term in that I was able to work on multiple different pieces of the project, got exposure to different technologies and skills, and the overarching
+                    goal was still the same: build an amazing emulation engine. However, the work that I was doing this time around was more complex, required a lot more planning/designing, 
+                    and was a lot more critical to the success of the project.
+                </p>
+                <p class="content-text">
+                    My first main task early on in the term was to work alongside one of the other co-ops and improve our metrics gathering system. Funny enough, the last 
+                    piece of work that I did before I left on my last term was getting in the foundation for the metrics system. Originally, it was a very simple system that 
+                    used a single record type and a local LiteDB database for storage. So, it was amazing to come back and see how much the system had improved in just 4 months, 
+                    taking advantage of multiple different record types for storage, and using an actual Mongo database for non-local storage capabilities. In terms of my task, 
+                    I was asked to implement functionality that allowed the system to display how the number of loads changed over time in every area of a facility. This involved 
+                    writing backend logic in C# to gather the required information and using MudBlazor with an ApexCharts library to display the information on our GUI. 
+                </p>
+                <p class="content-text">
+                    Most of my work throughout the term actually involved multiple different aspects of software development. For many of my tasks, I was able to improve multiple 
+                    different software development skills at once. This list consisted of: algorithm design, GUI design, backend development, and frontend development. Thus, I am 
+                    extremely grateful that a single role exposed me to all of these different areas of software development.
+                </p>
+                <p class="content-text">
+                    In terms of the middle of my co-op term, my work mainly centered around improvements and tools that were either specifically requested by higher-ups in the company
+                    or were discovered to be a necessity by our own team. For example, one of the tools that was requested by a higher-up was the ability to see utilization information 
+                    for each area of a facility. In our system, a facility was modeled and stored using a tree structure. Previously, utilization information was only shown for the lowest 
+                    levels in the tree (ie. the most specific level). However, with this change, I was able to show the utilization information for every level of the tree. This made it easy 
+                    to see at a glance how much (in terms of a percentage) higher level areas in the facility (or even the facility as a whole) were being utilized. Additionally, a tool that 
+                    I developed that was requested by someone on our team was a script that pulled out and displayed length, speed, and traversal time information for segments in the facility 
+                    structure. This tool allowed users to easily search for specific segment information by using the name of the component that the segments belong to as an argument. The tool 
+                    also gave users the choice to retrieve information about every single segment in a given facility. This script actually ended up being very useful and I found myself running 
+                    it at least once or twice each week to give the requested information to one of my team members.  
+                </p>
+                <p class="content-text">
+                    Finally, towards the end of my term, I was tasked with working on a brand new project. Essentially, the project was a GUI tool that allowed users to configure a bay/rack component 
+                    for a warehouse. The main inspiration behind this was based on the fact that a bay is a fairly complex structure that requires a lot of different input to be defined accurately. 
+                    Therefore, the concern for the team was that configuring a bay through configuration files or through code would be very complex. However, allowing users to do it through a GUI would 
+                    simplify things drastically. Since this was a brand new idea, I was given the opportunity to design everything from scratch. This meant designing the overall class structure and designing 
+                    the look of the GUI in Figma. The next step was implementing the backend class system and the various verification and/or calculation logic. The final step in the process was to implement the 
+                    frontend GUI and input gathering, which was all done using MudBlazor. 
+                </p>
+                
+              </div>
+              
+            </div>
+
+              <!-- images collection -->
+              <h4 class="img_header">Bay Configuration Tool Work</h4>
+              <div class="img-row">
+
+                    <figure class="img-column">
+                        <img class="bottom-img" src="../images/rack.jpg" alt="Example of racking system">
+                        <figcaption>Example of a  simple racking system</figcaption>
+                    </figure>
+        
+                    <figure class="img-column">
+                        <img class="bottom-img" src="../images/bay_creation_page_figma.png" alt="Figam design of bay creation page">
+                        <figcaption>Figma design of page on the racking GUI</figcaption>
+                    </figure>
+
+                    <figure class="img-column">
+                        <img class="bottom-img" src="../images/bay_creation_page_real.PNG" alt="Real working bay creation page">
+                        <figcaption>Actual developed page running live</figcaption>
+                    </figure>
+
+              </div>
+            </div>
+
+            <!--goals tab content-->
+            <div class="tab-pane" id="goals">
+              <div class="row border g-0 rounded shadow">
+                <div class="col p-4">
+                  <h3>Goals</h3>
+                 <ul class="goals">
+                   <li>
+                      <h5> LITERACY - Technological Literacy </h5>
+                      My first goal for this work term was to gain experience with and understand the use cases of the ELK Stack. The ELK stack is a 
+                      fairly commonly used stack in modern software companies. Gaining first hand experience with the stack, understanding its capabilities, 
+                      and understanding how to use it will make me a more well-rounded developer and will help me during future employment opportunities. After 
+                      using the ELK stack throughout the work term, my knowledge level (in terms of knowing how to use the stack and what it does) has definitely 
+                      improved. During my work term, the team made a core change that included the migration of the ELK stack into our project. As a result, I 
+                      was able to gain first hand experience with both setting up Elasticsearch and Kibana from scratch. Additionally, I was given the opportunity 
+                      to see the power of the stack by using existing Kibana dashboards and creating a brand new one. While I was not able to dive into the more 
+                      advanced features of the stack, this work term gave me an understanding of the basics of the ELK stack. 
+                   </li>
+                   <li>
+                    <h5>COMMUNICATING - Oral Communication</h5>
+                    My second goal of the work term was to Improve my ability to verbally explain the tasks that I am working on and what the code that I have written does. 
+                    Throughout my career, it is highly likely that I will be interacting with people who do not have a programming background. In these situations, it is critical 
+                    that I am able to explain what is going on regardless of the person’s familiarity with programming. Also, in general, being able to effectively explain what 
+                    certain pieces of code are doing is a very important skill for a developer to have. After 4 months of daily stand-ups, weekly demos, design meetings, and sprint 
+                    review/planning meetings, I can say with confidence that my oral communication skills have improved greatly. Firstly, our daily stand-ups allowed me to practice 
+                    verbally explaining the tasks that I am working on and how any of my implemented changes work. Additionally, weekly team demos and sprint review/planning meetings 
+                    drastically improved my ability to highlight and explain different pieces of actual code and how they work. Finally, near the end of my term, I was given the opportunity 
+                    to demo my work for my boss’ boss. This was an exciting opportunity as I was able to present the work that I had completed throughout the term to a higher-up at the company. 
+                    As a result, I gained experience with demoing and explaining my work/code in a more formal environment (compared to the much more informal weekly team demos). Overall, this term 
+                    gave me constant chances to work on my oral communication skills and as a result, they have improved significantly. 
+                 </li>
+                 <li>
+                    <h5>LITERACY - Technological Literacy </h5>
+                    My last goal for this work term was to improve my ability to use the Visual Studio IDE. Visual Studio is a very popular and standard IDE that is used in a lot of different
+                     software companies. Being able to efficiently use the IDE for development and debugging purposes will allow me to complete work faster, figure out bugs faster, and make me a
+                      better developer overall. Therefore, completing this goal will improve my employability for future opportunities. After using the Visual Studio IDE pretty much everyday for 
+                      4 months, I think that it is safe to say that I have achieved this goal. As time went on, I began to learn small shortcuts and commands that allowed me to improve my efficiency. 
+                      Additionally, I think that my ability to debug has improved greatly. Previously, my debugging methods mainly consisted of using print statements before and after blocks of code to 
+                      help narrow down the issue. However, throughout the term, I became much more comfortable with using the Visual Studio debug mode. For example, I learned how to effectively use breakpoints 
+                      and step over/into code blocks to help figure out the problem. Additionally, I became comfortable with using the call stack view and inspecting variables to help aid in fixing the issue. 
+                      Therefore, my ability to use the Visual Studio IDE has improved significantly over the course of the term, thus greatly improving my ability to code and debug efficiently and effectively. 
+                 </li>
+                 </ul>
+                </div>
+              </div>
+            </div>
+
+            <!--conclusion tab content-->
+            <div class="tab-pane" id="conclusion">
+              <div class="row border g-0 rounded shadow">
+                <div class="col p-4">
+                  <h3>Conclusion</h3>
+                  <p class="content-text">
+                    Once again, after just four months of working at Bastian Solutions, I feel as though my skills as a developer have improved incredibly. Additionally, with consistent team meetings and tight deadlines, 
+                    I had to constantly use my communication and time-management skills in order to be a productive member of the team. Therefore, while my development skills improved greatly, so too did my general soft skills. 
+                    One thing that I specifically wanted to mention was how grateful I am for the opportunity to be able to see a product come to life before my very own eyes. Since I started working with the team while they were 
+                    still very early in the product development process, I was able to see the product go from being just an idea to a fully functioning product. I feel as though that this is not usually the case for most co-op students 
+                    and I just wanted to express how unique and engaging the experience has been.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+           <!--acknowledgements tab content-->
+           <div class="tab-pane" id="acknowledgements">
+            <div class="row border g-0 rounded shadow">
+              <div class="col p-4">
+                <h3>Acknowledgements</h3>
+                <p class="content-text">
+                  Special thanks to the entire development team for welcoming me back with open arms and always being willing to help out! I am super glad that I decided to return to work with the amazing
+                  team that they are.
+                </p>
+                <ul class="shoutouts">
+                  <li>Mackenzie Miller - Thanks for all of you help with the racking generator tool requirements!</li>
+                  <li>Sean Mackins - Thanks for all of your support with regards to MudBlazor and other front-end related stuff!</li>
+                  <li>Gabriel Stewart - Thanks for your assistance with testing and VM related tasks!</li>
+                  <li>Bryn Deering - Thanks for all your help with the metrics system!</li>
+                  <li>Zack Lee - Thanks for all your support with regards to the DES logic and PLC implementations!</li>
+                </ul>
+                <p>
+                  Finally, a huge thank you to my supervisor, Samuel Oosterhuis for always being availble when I needed help, valuing my opinion on design related tasks, and providing me with challeneging work that 
+                  helped improve my skills as a developer!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center">
+          <button class="btn btn-danger btn_home" id="home">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+              <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+            </svg>
+          </button>
+        </div>      
+      </div>
+        
+    </body>
+
+</html>
