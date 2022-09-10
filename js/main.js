@@ -9,6 +9,10 @@ $(document).ready(function() {
         document.location.href = "./term_pages/bastian1.html";
     })
 
+    $(".wt3").click(function() {
+        document.location.href = "./term_pages/bastian2.html"
+    })
+
     //take user back to home page
     $(".btn_home").click(function() {
         document.location.href = "../index.html"
