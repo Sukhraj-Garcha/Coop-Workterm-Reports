@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Work Term 4 & 5</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--jQuery and Bootstrap-->
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  
+        
+        <link rel="stylesheet" href="../css/work_term_three.css"> 
+        <!-- include scripts -->
+        <script src="../js/main.js"></script>
+
+    </head>
+    <body>
+       
+      <!-- section tabs -->
+      <div class="container mt-2">
+
+        <h1>BASTIAN SOLUTIONS</h1>
+        <p>Software Developer (Jan 2023 - Aug 2023)</p>
+
+        <ul class="nav nav-tabs"> <!--add 'justify-content-center' to ul class to center tabs-->
+          <li class="nav-items"><a class="nav-link active" data-bs-toggle="tab" href="#about"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-person" viewBox="0 0 16 16">
+            <path d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"/>
+            <path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+          </svg> About</a></li>
+
+          <li class="nav-items"><a class="nav-link" data-bs-toggle="tab" href="#job_desc"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-card-checklist" viewBox="0 0 16 16">
+            <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/>
+            <path d="M7 5.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0zM7 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0z"/>
+          </svg> Job Description</a></li>
+
+          <li class="nav-items"><a class="nav-link" data-bs-toggle="tab" href="#goals"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trophy" viewBox="0 0 16 16">
+           <path d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935zM3.504 1c.007.517.026 1.006.056 1.469.13 2.028.457 3.546.87 4.667C5.294 9.48 6.484 10 7 10a.5.5 0 0 1 .5.5v2.61a1 1 0 0 1-.757.97l-1.426.356a.5.5 0 0 0-.179.085L4.5 15h7l-.638-.479a.501.501 0 0 0-.18-.085l-1.425-.356a1 1 0 0 1-.757-.97V10.5A.5.5 0 0 1 9 10c.516 0 1.706-.52 2.57-2.864.413-1.12.74-2.64.87-4.667.03-.463.049-.952.056-1.469H3.504z"/>
+          </svg> Goals</a></li>
+
+          <li class="nav-items"><a class="nav-link" data-bs-toggle="tab" href="#conclusion"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+          </svg> Conclusion</a></li>
+
+          <li class="nav-items"><a class="nav-link" data-bs-toggle="tab" href="#acknowledgements"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hand-thumbs-up" viewBox="0 0 16 16">
+            <path d="M8.864.046C7.908-.193 7.02.53 6.956 1.466c-.072 1.051-.23 2.016-.428 2.59-.125.36-.479 1.013-1.04 1.639-.557.623-1.282 1.178-2.131 1.41C2.685 7.288 2 7.87 2 8.72v4.001c0 .845.682 1.464 1.448 1.545 1.07.114 1.564.415 2.068.723l.048.03c.272.165.578.348.97.484.397.136.861.217 1.466.217h3.5c.937 0 1.599-.477 1.934-1.064a1.86 1.86 0 0 0 .254-.912c0-.152-.023-.312-.077-.464.201-.263.38-.578.488-.901.11-.33.172-.762.004-1.149.069-.13.12-.269.159-.403.077-.27.113-.568.113-.857 0-.288-.036-.585-.113-.856a2.144 2.144 0 0 0-.138-.362 1.9 1.9 0 0 0 .234-1.734c-.206-.592-.682-1.1-1.2-1.272-.847-.282-1.803-.276-2.516-.211a9.84 9.84 0 0 0-.443.05 9.365 9.365 0 0 0-.062-4.509A1.38 1.38 0 0 0 9.125.111L8.864.046zM11.5 14.721H8c-.51 0-.863-.069-1.14-.164-.281-.097-.506-.228-.776-.393l-.04-.024c-.555-.339-1.198-.731-2.49-.868-.333-.036-.554-.29-.554-.55V8.72c0-.254.226-.543.62-.65 1.095-.3 1.977-.996 2.614-1.708.635-.71 1.064-1.475 1.238-1.978.243-.7.407-1.768.482-2.85.025-.362.36-.594.667-.518l.262.066c.16.04.258.143.288.255a8.34 8.34 0 0 1-.145 4.725.5.5 0 0 0 .595.644l.003-.001.014-.003.058-.014a8.908 8.908 0 0 1 1.036-.157c.663-.06 1.457-.054 2.11.164.175.058.45.3.57.65.107.308.087.67-.266 1.022l-.353.353.353.354c.043.043.105.141.154.315.048.167.075.37.075.581 0 .212-.027.414-.075.582-.05.174-.111.272-.154.315l-.353.353.353.354c.047.047.109.177.005.488a2.224 2.224 0 0 1-.505.805l-.353.353.353.354c.006.005.041.05.041.17a.866.866 0 0 1-.121.416c-.165.288-.503.56-1.066.56z"/>
+          </svg> Acknowledgements</a></li>
+
+        </ul>
+        
+        <div class="tab-content">
+          
+          <!--about tab content-->
+          <div class="tab-pane active" id="about">
+            <div class="row border g-0 rounded shadow">
+              <div class="col p-4">
+                <h3>About</h3> <br>
+                <h6>NOTE: This section has the same content as last term</h6> <br>
+                <p class="content-text">
+                  Bastian Solutions is a Toyota Advanced Logistics company that specializes in material handling, robotics integration, and 
+                  providing automated solutions for distribution, manufacturing, and order fulfillment centers around the world. Bastian 
+                  provides automation solutions in the following areas: conveyor/sortation, goods to person, automated storage and retrieval 
+                  systems (ASRS), picking, and automated guided vehicles (AGVs). The company has too many automated solutions to go into detail 
+                  about each item here, but you can explore all of their projects <a href="https://www.bastiansolutions.com/" target="blank">here</a>. The bread and 
+                  butter of Bastian’s automated solutions is their software known as Exacta. Exacta is broken into three main components: ExactaWCS, ExactaWMS, ExactaWES. 
+                  ExactaWCS is the warehouse control system that facilitates material and information flow to order fulfillment technology and material handling 
+                  equipment. ExactaWMS is a warehouse management system that tracks inventory, inbound and outbound traffic, and allows customers to customize 
+                  and view their warehouse in ways that best benefit their requirements. ExactaWES is the warehouse execution system, which is a combination 
+                  of WCS and MCS. In 1952, Elgan Stark founded the company that would eventually become Bastian Solutions (then known as E.C Stark Co. Inc. 
+                  At this point, the company supplied conventional material handling products. In 1971, the company was renamed to Bastian Handling Corporation. 
+                  In 1980, the company shifted their focus to become more involved with automated solutions and information systems that control the flow of 
+                  products in warehouses and manufacturing facilities. Between the years of 2005 and 2012, four major changes occurred: Bastian created its 
+                  first robotics division, the company started manufacturing its own line of conveyor, more offices opened up around the world 
+                  (Toronto, Montreal, Atlanta, etc.), and began operation under the new name Bastian Solutions. The final major change to the company occurred 
+                  in 2017 when Bastian Solutions was acquired by Toyota Advanced Logistics. Currently, Bastian Solutions has offices spread throughout Canada, 
+                  the United States, and Mexico and operates with the main goal of providing clients a competitive advantage by designing and delivering world-
+                  class distribution and production solutions.
+                </p>
+              </div>
+               <!--image (right side)-->
+              <div class="col-auto"> 
+                  <img src="../images/bastian_logo.gif" class="img-fluid">
+              </div>
+            </div>
+          </div>
+
+          <!--job description tab content-->
+          <div class="tab-pane" id="job_desc">
+            <div class="row border g-0 rounded shadow">
+              <div class="col p-4">
+                <h3>Job Description</h3>
+                <p class="content-text">
+                    This was my fourth (and fifth technically) term with Bastian solutions. The overall details of my work procedures (i.e. IDE, language, dev tools, etc.) 
+                    remain the same as my previous terms. My main IDE for development is still Visual Studio and the team’s product is still built using C# and the .NET framework. 
+                    However, something that was definitely different this time around was the complexity of work that I was doing. Compared to previous terms, in the past 8 months, 
+                    I was given the opportunity to work on much larger and more difficult tasks (which I am extremely grateful for). Since there was a lot going on in the past 8 months 
+                    (way too much to explain everything in detail), the rest of this section will highlight some of the biggest pieces/features that I worked on. 
+                </p>
+                <p class="content-text">
+                    In my last term, I was working on a tool (mainly as a proof of concept) that would create a Unity asset for a warehouse shelving unit (aka a rack). At the end of that term, 
+                    the tool was nothing more than a GUI that asked the user for the relevant information. There was no backend, no handshake with Unity, and definitely no assets being generated. 
+                    Upon my return to Bastian, I was given the opportunity to continue working on this tool and developing it to completion. It was really exciting to be able to pick up where I had left 
+                    off and see the idea through to its end. This task gave me the chance to improve multiple aspects of my development skills (designing the back end functionality, designing a GUI, development, and testing). 
+                    This version of the tool allowed for the user to easily design a warehouse rack and was also capable of generating the corresponding visual asset in Unity (as a prefab). Overall, it was really cool to see 
+                    the racking generator go from an idea, to a POC, all the way to a fully working tool. 
+
+                </p>
+                <p class="content-text">
+                    Once the racking generator was complete, I was given the unique opportunity to act as a sort of “mentor” to our new co-op. I was tasked with handing off the tool to said co-op student, which involved teaching him how 
+                    the tool worked, explaining the overall design, and explaining how the code works in detail. This was a very exciting task, especially since I had not done something like this before. I am very grateful that I had this 
+                    opportunity since I think it's pretty rare for someone as junior as me to be acting as a mentor for someone. 
+
+                </p>
+                <p class="content-text">
+                    After the tool had been handed off, I shifted my focus to working on more core pieces of our emulation. During this period, I was able to dive deep into the actual emulation engine and get a fundamental understanding of how 
+                    it actually works. Additionally, I worked on cleaning up the eventing system between the emulation and Unity. This gave me the chance to improve my knowledge of how events work in C#, a concept I had always fumbled with. 
+                    This task required me to dig through and understand the Unity side code (which had been written for our team by a third party). During this, the debugger became my best friend as I constantly found myself using breakpoints and stepping 
+                    through the code to try and understand how the two pieces communicate with each other. In the end, I was able to take a confusing eventing system with an insane amount of unnecessary layers of abstraction and refactor it into a much cleaner, and easier to understand system. 
+                    Another big part of this period of the co-op term was learning about our PLC system. This involved understanding how our “mock” PLCs communicate with the different pieces in a warehouse (i.e conveyors, AGVs, automated robots, etc.). 
+                </p>
+                <p class="content-text">
+                    The last large piece of work that I was assigned was to design and implement a state machine that could be used to model the various flows of different warehouse systems. This was a challenging task because a lot of effort had to be put into the design phase to ensure that the 
+                    implementation was efficient, but also applicable to any scenario we might possibly need. This task really gave me the chance to work on the entire development process since I had to start with a research phase to look at possible implementations of a state machine. Then I had 
+                    to design (and re-design many times) the system, and of course, implement and test. I ended up spending many hours on call with teammates iterating over and improving the design to make sure it was as efficient and robust as possible. After the state machine was built up to a 
+                    working stage, I started to work on system tests of very simple scenarios (eg. the state machine is representing a warehouse worker who is in one of these states: waiting, walking, working). This process involved setting up a state machine diagram to represent the workflow of 
+                    the scenario, then implementing said diagram and updating/adding states if necessary. I thought it was really cool to use what are essentially NFA diagrams in a real world setting and can clearly see how useful they can be for modeling systems. The final part of this task was 
+                    generating a state machine to represent an automated goods to person station. The steps to complete this were pretty much the same as the simple system tests, however, the complexity of this particular workflow was much greater. I had to spend a lot of time digging through
+                    documentation surrounding the G2P station in order to get a good idea of what possible states/paths we would need. 
+                </p>
+                
+              </div>
+              
+            </div>
+
+              <!-- images collection -->
+              <h4 class="img_header">Bay Configuration Tool Work</h4>
+              <div class="img-row">
+                    <figure class="img-column">
+                        <img class="bottom-img" src="../images/bay_creation_page_real.PNG" alt="Real working bay creation page">
+                        <figcaption>Old GUI Design</figcaption>
+                    </figure>
+
+                    <figure class="img-column">
+                        <img class="bottom-img" src="../images/new_comp_builder.png" alt="Figam design of bay creation page">
+                        <figcaption>Re-designed GUI</figcaption>
+                    </figure>
+
+              </div>
+            </div>
+
+            <!--goals tab content-->
+            <div class="tab-pane" id="goals">
+              <div class="row border g-0 rounded shadow">
+                <div class="col p-4">
+                  <h3>Goals</h3>
+                 <ul class="goals">
+                    <li>
+                        <h5>LITERACY - TECHNOLOGICAL LITERACY </h5>
+                        I will aim to Gain experience with and get a foundational understanding of Unity development. Currently, the team is working towards integrating the emulation engine with Unity. While I do not necessarily see myself working exclusively on Unity development in the future, I have always been interested in the game engine. 
+                        Thus, while accomplishing this goal will make me a better developer, my main reason for wanting to learn Unity development is just personal interest. While I did not necessarily go into as much detail on the Unity side as I would have liked, I was still able to work with the engine a little bit, which was exciting to me nonetheless. 
+                        I gained a basic understanding of some of the features of the Unity editor, learned the basics about game objects, rendering, creating and attaching scripts, and gained some experience with Unity UI. My goal was to gain a foundational understanding of Unity development, and I think knowing the fundamentals of the aspects I listed above is a 
+                        good indication that I was successful.
+    
+                     </li>
+                     <li>
+                        <h5> CRITICAL AND CREATIVE THINKING - INQUIRY AND ANALYSIS</h5>
+                        Another one of my goals was to reduce potentially “wasted” hours from trying to solve a problem by myself when another team member could easily help me out. 
+                        The ability to work independently is an essential skill for a developer to have. However, it is also important to understand when it is appropriate to ask for help. 
+                        Doing so will make me a more well-rounded developer who is confident in his own skills, but understands when to ask for help. Additionally, productivity would be increased due 
+                        to the time that is being saved. After the last four months with Bastian, I noticed that my ability to decide when it is appropriate to ask for help improved quite significantly. Looking back at the term, I can say 
+                        there were definitely scenarios in which I saved many hours of researching and debugging by knowing when it was time to ask for help and who I could get it from. As a consequence of this, I also got a really good understanding of not only my own, 
+                        but also my entire team’s strengths and weaknesses. So, I was able to more easily recognize who would be the most knowledgeable about a particular problem and which types of problems I was more likely to need help on. Therefore, I would say I successfully 
+                        completed this goal and have become a much better developer as a result.
+                        
+                     </li>
+                     <li>
+                        <h5>COMMUNICATION - WRITTEN COMMUNICATION</h5>
+                        I will aim to Write 2-3 pieces of documentation for the team wiki that are relevant to current work. Being able to articulate your thoughts through writing is critical for a developer since you might not always get the chance to meet with people face to face. Thus, 
+                        having the opportunity to write documentation that explains some of the code and implementation details would give me the chance to improve my ability to write my thoughts. This will benefit me throughout my career as I will likely be frequently required to write documentation 
+                        or explain code through an email. Throughout this term, the work that I was doing was fairly complex. Additionally, the team had a lot of work to complete in just a short time so everybody was sort of locked in on their area and not as informed about work that was being done in other areas. 
+                        These two things combined meant that it was extremely important to have good documentation. While I may not have added 2-3 pieces of documentation to the team wiki like I had originally aimed to, I was still able to write documentation that was used/kept elsewhere. I wrote up detailed documentation 
+                        that explained how to utilize the Unity application that had been recently developed to work with our emulation. Also, an unexpected way I was able to work on my written communication skills was by writing up user stories for the team’s Azure DevOps portal. These stories were ways to encapsulate required 
+                        work for the team and they had to be fairly detailed so that the developer knew exactly what had to be done. So, I was able to greatly improve my ability to explain implementation details through writing. Thus, while I may not have added documentation directly to the wiki, I still produced documentation that 
+                        lives on different team portals, so I would still say this goal was achieved.
+                    </li>
+
+                   <li>
+                    <h5> PROFESSIONAL AND ETHICAL BEHAVIOUR - PERSONAL ORGANIZATION/TIME MANAGEMENT</h5>
+                    I will set myself small, short term goals that are achievable in a week for each week. Sometimes when working on larger tasks, I feel I have a tendency to focus too 
+                    much on the end goal. Instead, I will strive to set small benchmark goals that break the task into simple pieces. This way, I will be able to measure my progression much 
+                    better and likely will be more productive. Towards the start of the term, I found that my tasks were small enough that this method for time management wasn’t really necessary. However, 
+                    that quickly changed as the tasks that I was working on grew in complexity rapidly. I really started using this idea of setting myself small/achievable goals during my final task. Essentially, 
+                    the task was to design and implement a state machine that would be able to model certain scenarios for our emulation. This was a very large task and It was also quite ambiguous, so creating these goals really 
+                    helped to keep me on track. I found that this helped me to slow down a little bit and focus on the steps required to get us to our end goal, instead of focusing too much on the end goal only.
+                   </li>
+                   <li>
+                    <h5>LITERACY - TECHNOLOGICAL LITERACY</h5>
+                    My second goal was to Improve knowledge of Blazor for front end development Throughout my previous terms at Bastian, I’ve been exposed to front end development with Blazor. I’ve found that I really enjoy using 
+                    this framework. So, I’d like to keep building on my knowledge and improving my proficiency with it. Overall, I would say that I accomplished this goal because I did quite a bit of work with our front end GUI application. Unfortunately, 
+                    I don’t believe that I am able to go into too much detail about this so the explanation is going to be very vague. I found myself using more and more complex Blazor concepts and components as I progressed through the term without having to rely too much on the experts on my team. 
+                    Additionally, I was getting less comments on my PR’s as time went on, thus further indicating my increased understanding of Blazor.
+                 </li>
+                 <li>
+                    <h5>COMMUNICATION - WRITTEN COMMUNICATION</h5>
+                    Before the end of my term, I will aim to thoroughly document any outstanding work so that the hand-off to the next developer will be as easy as possible. This will include documenting the code well and potentially written documentation too (depending on the task that I happen to be working on).
+                    Doing this will make the transition for the new developer who is taking on the task much easier and quicker. Thus the team will be more productive because they have to use less resources trying to get the new developer up to speed. 
+                    The last big piece that I was working on was implementing a state machine. I would say that I completed this goal because I created a supporting document that explained exactly how the implementation worked. This document also contained a sequence diagram that helped outline the general workflow of the state machine. 
+                    I also made sure to document the code so that the next person can easily understand what the more complex parts of the code are doing. 
+                 </li>
+                 </ul>
+                </div>
+              </div>
+            </div>
+
+            <!--conclusion tab content-->
+            <div class="tab-pane" id="conclusion">
+              <div class="row border g-0 rounded shadow">
+                <div class="col p-4">
+                  <h3>Conclusion</h3>
+                  <p class="content-text">
+                    Another two terms with Bastian have gone and I could not be more sad about leaving the team. I am extremely grateful for how much I’ve had the opportunity to learn at Bastian and am honestly surprised at just how much my development skills have improved. Specifically, 
+                    this term really built up my ability to read and understand other people’s code. Many of my tasks required me to either use someone else’s code to complete something or make changes to existing code, which is inevitable as a developer. Thus, I am thankful I had so many 
+                    opportunities to work on this particular skill. Additionally, for both the racking generator and the state machine, I was able to experience the full design process before the implementation phase. This greatly improved my ability to think about creating a good base design 
+                    before moving straight to implementation.
+                  </p>
+                  <p class="content-text">
+                    Overall, I spent 4 total terms with Bastian and I could not think of a better way to spend 16 months of working than with wonderful people on Team Bluejay. On a closing note, I just wanted to express how grateful I am to my manager, Sam, for giving me tasks that were challenging and 
+                    that forced me to get out of my comfort zone of things that I already know how to do. 
+                  </p>
+                </div>
+              </div>
+            </div>
+
+           <!--acknowledgements tab content-->
+           <div class="tab-pane" id="acknowledgements">
+            <div class="row border g-0 rounded shadow">
+              <div class="col p-4">
+                <h3>Acknowledgements</h3>
+                <p class="content-text">
+                    Huge thanks to the entire team for providing me with a very memorable and challenging co-op experience. Hope to work with you guys 
+                    in the future!
+                </p>
+                <ul class="shoutouts">
+                  <li>Mackenzie Miller - Thanks for all of you help with admin stuff and for trusting me to lead the team in your absence</li>
+                  <li>Sean Mackins - Thanks for all of your support with regards to component builder and server side problems</li>
+                  <li>Zack Lee - Thanks for your assistance with system test and configuration</li>
+                  <li>Allen Flath - Thanks for all your help with developing the state machine and related diagrams</li>
+                  <li>Julius Kaperniak - Thanks for all your help with Unity related problems!</li>
+                </ul>
+                <p>
+                  Finally, a huge thank you to my supervisor, Samuel Oosterhuis for continuing to invite me back to Bastian, trusting me with more leadership oriented tasks, 
+                  and guiding me through my journey to becoming a software developer!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center">
+          <button class="btn btn-danger btn_home" id="home">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+              <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+            </svg>
+          </button>
+        </div>      
+      </div>
+        
+    </body>
+
+</html>

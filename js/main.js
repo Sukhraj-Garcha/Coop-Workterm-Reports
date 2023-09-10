@@ -13,6 +13,10 @@ $(document).ready(function() {
         document.location.href = "./term_pages/bastian2.html"
     })
 
+    $(".wt4").click(function() {
+        document.location.href = "./term_pages/bastian3.html"
+    })
+
     //take user back to home page
     $(".btn_home").click(function() {
         document.location.href = "../index.html"
